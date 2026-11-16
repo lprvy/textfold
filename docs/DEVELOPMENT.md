@@ -36,7 +36,7 @@ One language, the reader's, any of `textfold/langs.py`: the browser's, or the on
 `pf-ui-lang`; the page tells the server too, the settings' `lang`, which `GET /api/models` reports for other programs,
 and `GET /api/langs` lists the languages). A paper is read in it: its text, and the names of its own parts (figures, tables, theorems, references,
 equations). The interface speaks it when `web/i18n.js` has its words (English, 简体中文, 繁體中文, 日本語, 한국어, Español,
-Français, Deutsch, Português, Italiano, Русский, हिन्दी), and English otherwise, as are then the names of the paper's
+Français, Deutsch, Português, Italiano, Русский, हिन्दी, Türkçe), and English otherwise, as are then the names of the paper's
 parts. A switch of either is a switch of both: the paper's menu at the top right, a language generated there, Settings,
 or the two menus of the landing (the one beside the bar offers every language a text can be read in, the one at the
 top right the interface's). A paper that has not that language yet opens in one it has, and the interface stays;

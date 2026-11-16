@@ -67,7 +67,8 @@ const MISSING = { en: 'This link names a document that is not in the library.', 
   es: 'Este enlace remite a un documento que no está en la biblioteca.', fr: 'Ce lien renvoie à un document qui n’est pas dans la bibliothèque.',
   de: 'Dieser Link führt zu einem Dokument, das nicht in der Bibliothek ist.', pt: 'Este link leva a um documento que não está na biblioteca.',
   it: 'Questo link rimanda a un documento che non è nella libreria.', ru: 'Эта ссылка ведёт к документу, которого нет в библиотеке.',
-  hi: 'यह लिंक जिस दस्तावेज़ का है, वह सूची में नहीं है।' };
+  hi: 'यह लिंक जिस दस्तावेज़ का है, वह सूची में नहीं है।',
+  tr: 'Bu bağlantı kitaplıkta olmayan bir belgeyi gösteriyor.' };
 async function inLibrary(id) {
   try {
     const r = await fetch(`${base}/api/papers`);
@@ -390,7 +391,7 @@ function inLocale(table) {
 // on GitHub. Its words follow the system's language, as the rest of the menu does.
 const CHECK = { en: 'Check for Updates…', zh: '检查更新…', 'zh-Hant': '檢查更新…', ja: 'アップデートを確認…', ko: '업데이트 확인…',
   es: 'Buscar actualizaciones…', fr: 'Rechercher des mises à jour…', de: 'Nach Updates suchen …', pt: 'Procurar atualizações…',
-  it: 'Cerca aggiornamenti…', ru: 'Проверить обновления…', hi: 'अपडेट देखें…' };
+  it: 'Cerca aggiornamenti…', ru: 'Проверить обновления…', hi: 'अपडेट देखें…', tr: 'Güncellemeleri Denetle…' };
 function menu(byHand) {
   const label = inLocale(CHECK);
   const check = { label, click: async () => { const r = await byHand(); if (r && r.kind !== 'available' && r.kind !== 'downloading' && r.kind !== 'ready') answer(r); } };

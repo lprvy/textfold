@@ -216,6 +216,23 @@
       done: 'समझ गया', prev: 'पिछला पन्ना', next: 'अगला पन्ना', close: 'बंद करें',
       k_levels: 'स्तर', k_scroll: 'स्क्रॉल', k_zoom: 'ज़ूम', k_lang: 'अगली भाषा', k_pages: 'पन्ने', k_close: 'बंद करें',
     },
+    tr: {
+      title: 'TextFold nasıl çalışır', sub: 'Dört kısa sayfa: katlanan bir metin nasıl okunur.',
+      p1: 'Bir metin getirin', p2: 'Katlayın ve açın', p3: 'Kimin sözcükleri', p4: 'Daha derin okuyun',
+      link_t: 'Bir bağlantı yapıştırın', link_d: 'Her web sayfası olur. Bir makalenin bağlantısı ya da DOI’si, Vikipedi ve GitHub bölümleri, formülleri ve şekilleriyle okunur.',
+      file_t: 'Ya da bir dosya bırakın', file_d: 'Bir PDF; Word, PowerPoint ya da Excel dosyası; EPUB, görsel, Markdown ya da .txt. İnternetteki bir makaleyi gösteren PDF o sürümle açılır. Diğer PDF’ler ve dosyalar bilgisayarınızda dönüştürülür.',
+      lang_t: 'Kendi dilinizde okuyun', lang_d: 'Birçok dil arasından seçin. Metin cümle cümle çevrilir ve her formül dizildiği gibi kalır.',
+      levels_t: 'Beş düzey', levels_d: '{levels}. Her düzey her paragraftan daha azını tutar; böylece bütünün daha fazlası ekrana sığar.',
+      map_t: 'Metnin haritası', map_d: '{topic} düzeyinde metin, bölüm kartlarından oluşan bir haritaya dönüşür. Hiçbirini okumadan önce bölümlerin birbiri üzerine nasıl kurulduğunu görürsünüz.',
+      zoom_t: 'Parmaklarınızın altında yakınlaştırma', zoom_d: 'Kıstırın, ⌘ ya da Ctrl ile kaydırın, 1’den 5’e bir tuşa basın ya da düzey çubuğunu sürükleyin. Kalan sözcükler yeni yerlerine kayar. Yalnızca bir paragrafı açmak için ona tıklayın.',
+      voice_t: 'Tırnaklı yazı yazarındır', voice_d: 'Yazarın sözcükleri tırnaklı (serif), yapay zekânınkiler tırnaksız (sans serif) bir yazı tipiyle dizilir. {brief} yazarın kendi cümlelerini sözcüğü sözcüğüne korur.',
+      anchor_t: 'Yapay zekâ kaynağını gösterir', anchor_d: 'Yapay zekânın yazdığı her satır dayandığı cümleleri gösterir. Renkler her paragrafın argümandaki rolünü belirtir.',
+      original_t: 'Özgün metnin yanında', original_d: 'Bir makale ya da PDF için üstteki {original} düğmesi sayfalarını solda açar. Her paragraf, sayfasında durduğu yerde işaretlenir.',
+      ask_t: 'Sorun ve kanıtı görün', ask_d: 'Bir pasajı seçip onun hakkında sorun ya da metnin tamamına sorun. Her yanıt dayandığı paragraflara atıf yapar; hepsi bir tık uzakta.',
+      notes_t: 'Sizinle birlikte yakınlaşan notlar', notes_d: 'Vurgulayın ve kenara yazın. İşaretledikleriniz uzaklaştıkça yerinde kalır. Kaydet, sayfayı onlarla birlikte tek bir dosya olarak ya da yalnızca notlarınızı saklar.',
+      done: 'Anladım', prev: 'Önceki sayfa', next: 'Sonraki sayfa', close: 'Kapat',
+      k_levels: 'düzeyler', k_scroll: 'kaydır', k_zoom: 'yakınlaştır', k_lang: 'sonraki dil', k_pages: 'sayfalar', k_close: 'kapat',
+    },
   };
 
   // ── the pictures: TextFold's own marks. The author's text in grey lines (and a serif), AI's in the accent (and a sans).
